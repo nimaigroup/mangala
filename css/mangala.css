@@ -1,0 +1,528 @@
+/* ========================================
+ Project: Mangala.us MangalaProductions.com
+ Copyright 2015 Sasa Hasid RA
+ Project Date: 01/04/2015
+ Author: Sasa Hasid RA => http://www.SasaRA.me
+
+ SWATCH COLORS
+ ====================
+ LogoBlue: #fff
+ =========================================
+
+ */
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+	background-color: white;
+	font-family: 'BenchNine', sans-serif;
+	/*font-family: 'Cabin Sketch', cursive;*/
+	/*max-height: 820px;*/
+	height:100%;
+	width:100%;
+}
+ol, ul {
+	list-style: disc inside none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after, q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+.clear_all {
+	clear: both;
+}
+
+a {
+	background-color: transparent;
+	font-size: 100%;
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	vertical-align: baseline;
+}
+/* end reset */
+
+/* walmart header fix */
+
+/*================================STRUCTURE================================*/
+
+.left {
+	float: left;
+	width: auto;
+}
+.right {
+	float: right;
+	width: auto;
+}
+.clear {
+	clear: both;
+	height: 1px;
+	margin: 0 0 -1px;
+	width: 100%;
+}
+
+.hidden {
+	display: none;
+}
+
+.center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.centered {
+	/*background-color: #fff;*/
+	border-radius: 5px;
+	padding: 10px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-right: -50%;
+	transform: translate(-50%, -50%);
+	/*border: 1px solid white;*/
+	/*min-width:90%;*/
+	max-height: 80%;
+}
+
+#spinnerwheel {
+	position: relative;
+	top: 200px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 60px;
+	height: 60px;
+}
+
+#livingCultureBG {
+	/*min-width: 100%;*/
+	left: 50%;
+	margin-right: -50%;
+	position: absolute;
+	top: 50%;
+	transform: translate(-50%, -50%);
+}
+
+/*
+ #nimaiwrap {
+ width: 805px;
+ height: auto;
+ position: relative;
+ font-family: Arial, Helvetica, sans-serif;
+ margin-left: 12px;
+ margin-right: auto;
+ text-align: left;
+ }
+ */
+
+/*#mangala_container {
+	color: #EBEBEA;
+	font-family: futura-pt, sans-serif;
+	font-style: normal;
+	font-weight: 500;
+	height: 100%;
+	left: 0;
+	overflow: hidden;
+	text-align: center;
+	text-transform: uppercase;
+	top: 0;
+	width: 100%;
+	max-height: 820px;
+	opacity: 0;
+	filter: alpha(opacity=0);
+}*/
+.box {
+  -webkit-backface-visibility:hidden;
+  border-radius:50px;
+  height:10px;
+  left:50%;
+  margin:-30px 0 0 -30px;
+  position:absolute;
+  top:50%;
+  width:10px;
+  text-align:center;
+}
+.red {
+	background:red;
+}
+.yellow {
+	background:yellow;
+}
+.blue {
+	background:blue;
+}
+.purple {
+	background:purple;
+}
+.green {
+	background:green;
+}
+.black {
+	background:black;
+}
+
+/* === MANGALA CUSTOM ===*/
+
+#mangalaLogo {
+	position: absolute;
+	top: 30%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	z-index: 100;
+}
+
+#mangalaLogo img {
+	height: auto;
+	width: 300px;
+}
+
+
+#mangala_container {
+	height: 100%;
+}
+
+#mangala_header {
+
+}
+
+#mangala_allGlories {
+	padding: 5px 0;
+	text-align: center;
+}
+
+.audioPlayer {
+	/*padding:10px;*/
+}
+
+.show-row {
+	/*background-color: black;*/
+}
+
+.arjunPromo {
+	height:auto;
+	padding: 10px 30px;
+	background-color: white;
+	/*margin-top: 15px;*/
+}
+
+.arjunPromo p {
+	padding:5px;
+	font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.arjunPromo a {
+	padding:5px;
+	color: #000;;
+	font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.arjunPromo a:hover,
+.arjunPromo a:focus,
+.arjunPromo a:active,
+.arjunPromo a.active {
+	color: #fec503;
+}
+
+.arjunBlurb {
+	padding:10px;
+}
+
+.arjunVideo {
+
+}
+
+.oneShow {
+	/*background-color: black;*/
+	background-color: rgba(0, 0, 0, 0.6);
+	border-radius: 5px;
+	padding:16px;
+	margin-bottom:10px;
+}
+
+.introBG {
+	z-index: 1;
+	position: absolute;
+	opacity: 0.6;
+	background: #ffffff url("../img/Arjun_2016_Pic_950x468.jpg") no-repeat right top;
+	/*background-image: url("../img/Arjun_2016_Pic_950x468.jpg");*/
+}
+
+.mLogoWhite {
+	position: absolute;
+	top:80px;
+	opacity:0.2;
+}
+
+.sponsors {
+	margin-top:-20px;
+	/*margin-left:auto;*/
+	/*margin-right:auto;*/
+	/*padding:10px;*/
+}
+
+.sponsorTile {
+	padding:5px;
+}
+
+.sponsorTile {
+	/*height:120px;*/
+	/*width:200px;*/
+	/*overflow: hidden;*/
+	/*margin-left: auto;*/
+	/*margin-right: auto;*/
+}
+
+/*.sponsorTile img {*/
+	/*display: block;*/
+	/*margin-left: auto;*/
+	/*margin-right: auto;*/
+/*}*/
+
+@media(min-width:768px) {
+	#mangalaLogo {
+		position: absolute;
+		top: 30%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		z-index: 100;
+	}
+
+	#mangalaLogo img {
+		height: auto;
+		width: 450px;
+	}
+
+	.mlogowhite {
+		position: absolute;
+		top:80px;
+	}
+	
+	.sponsors {
+		margin-top:-200px;
+		/*margin-left:auto;*/
+		/*margin-right:auto;*/
+		/*padding:20px;*/
+	}
+
+	.sponsorTile {
+		/*height:120px;*/
+		/*width:400px;*/
+		/*overflow: hidden;*/
+		/*margin-left: auto;*/
+		/*margin-right: auto;*/
+		/*padding:10px;*/
+	}
+
+	/*.sponsorTile img {*/
+		/*display: block;*/
+		/*margin-left: auto;*/
+		/*margin-right: auto;*/
+	/*}*/
+
+
+	.arjunPromo {
+		height:auto;
+		padding:10px;
+		background-color: white;
+		margin-top: 15px;
+	}
+
+	.arjunPromo p {
+		padding:10px;
+		font-size:16px;
+		font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+	}
+
+	.arjunPromo a {
+		padding:10px;
+		color: #000;;
+		font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+	}
+
+	.arjunPromo a:hover,
+	.arjunPromo a:focus,
+	.arjunPromo a:active,
+	.arjunPromo a.active {
+		color: #fec503;
+	}
+
+	.arjunBlurb {
+		padding:20px;
+	}
+	.arjunVideo {
+
+	}
+
+	.oneShow {
+		background-color: rgba(0, 0, 0, 0.6);
+		border-radius: 10px;
+		padding:25px;
+	}
+}
+
+
+
+.logo_container {
+	/*position: absolute;*/
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	z-index: 500;
+}
+
+.m_logo_container {
+	/*border: 5px solid black;
+	 height:700px;
+	 width:700px;*/
+}
+
+.m_logo {
+	padding: 10px;
+}
+
+.m_logo img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.icon-logo {
+	cursor: pointer;
+}
+
+.icon-logo img {
+	display: none;
+	height: 30%;
+	margin-left: auto;
+	margin-right: auto;
+	width: 30%;
+	cursor: pointer;
+}
+
+.full-logo {
+	display: none;
+}
+
+.text-logo {
+	background: black;
+	border-radius: 1em;
+	color: white;
+	left: 50%;
+	margin-right: -50%;
+	padding: 1em;
+	position: absolute;
+	top: 50%;
+	transform: translate(-50%, -50%);
+}
+
+
+
+.superShadow {
+  text-shadow:     0 1px 0 hsl(174,5%,80%),
+	                 0 2px 0 hsl(174,5%,75%),
+	                 0 3px 0 hsl(174,5%,70%),
+	                 0 4px 0 hsl(174,5%,66%),
+	                 0 5px 0 hsl(174,5%,64%),
+	                 0 6px 0 hsl(174,5%,62%),
+	                 0 7px 0 hsl(174,5%,61%),
+	                 0 8px 0 hsl(174,5%,60%),
+	
+	                 0 0 5px rgba(0,0,0,.05),
+	                0 1px 3px rgba(0,0,0,.2),
+	                0 3px 5px rgba(0,0,0,.2),
+	               0 5px 10px rgba(0,0,0,.2),
+	              0 10px 10px rgba(0,0,0,.2),
+	              0 20px 20px rgba(0,0,0,.3);
+}
+
+/* SOCIAL LINKS ==========================*/
+
+.link {
+	background-position: 50% 0;
+	cursor: pointer;
+	display: inline-block;
+	height: 39px;
+	margin: 5px 10px;
+	width: 39px;
+	/*box-shadow: 2px 2px 1px #888888;*/
+	text-decoration: none;
+	z-index: 500;
+}
+
+.link:hover {
+	background-position: 50% 100%;
+}
+
+.link.soundcloud {
+	background-image: url(../img/links/icon_soundcloud.png);
+}
+
+.link.reverbnation {
+	background-image: url(../img/links/icon_reverbnation.png);
+}
+
+.link.facebook {
+	background-image: url(../img/links/icon_facebook.png);
+}
+
+.link.plus {
+	background-image: url(../img/links/icon_plus.png);
+}
+
+.link.twitter {
+	background-image: url(../img/links/icon_twitter.png);
+}
+
+.link.youtube {
+	background-image: url(../img/links/icon_youtube.png);
+}
+
+.link.grooveshark {
+	background-image: url(../img/links/icon_grooveshark.png);
+}
+
+.link.instagram {
+	background-image: url(../img/links/icon_instagram.png);
+}
+
+.link.myspace {
+	background-image: url(../img/links/icon_myspace.png);
+}
+
+.link.pinterest {
+	background-image: url(../img/links/icon_pinterest.png);
+}
+
+.link.mail {
+	background-image: url(../img/links/icon_mail.png);
+}
+
+/*====================================*/
+
+.mangala-carousel_text {
+	z-index: 100;
+}
+
+.mangala-carousel_image {
+	max-height: 300px;
+	max-width: 300px;
+}
+
